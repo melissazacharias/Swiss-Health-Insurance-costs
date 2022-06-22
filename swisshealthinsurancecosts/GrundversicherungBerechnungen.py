@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 import pandas as pd
 
 # Kostenoptimierung der SWICA Versicherungen, Stand 06.03.2022
+# Assumption:the lowest franchise corresponds to the lowest fixkosten etc. 
+# TODO: add flag to turn on for cases that do not follow this assumption
 
 class realkosten:
     
